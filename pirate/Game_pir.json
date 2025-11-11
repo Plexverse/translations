@@ -126,7 +126,7 @@
   "broken-build-vote-progress": "§7Broken build votes: §e%%votes%%/%%needed%% §7(%%remaining%% more needed)",
   "round-skipped-broken-build": "§a§lRound skipped due to broken build! §7Moving to next round...",
   "cannot-debug-outside-build": "§cYou can only use build debug during the build phase!",
-  "cannot-debug-while-dead": "§cYou cannot use build debug while dead!",
+  "cannot-debug-while-dead": "§cYou cannot use build ebug while dead!",
   "error-loading-builds": "§cError loading builds from resources!",
   "build-not-found": "§cBuild '%%buildName%%' not found!",
   "build-not-found-suggestions": "§cBuild '%%buildName%%' not found! Similar builds: §e%%suggestions%%",
