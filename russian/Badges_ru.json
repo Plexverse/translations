@@ -1,10 +1,10 @@
 {
   "progress": "Progress",
-  "complete": "Complet",
+  "complete": "Выполнено",
   "tier": "Tier",
   "all-tiers-complete": "All tiers complete",
   "currently-at-tier": "Currently at Tier",
-  "badges": "Badge",
+  "badges": "Значок",
   "badge": "badge",
   "badge-score": "Badge Score",
   "you-have-obtained": "You have obtained the",
