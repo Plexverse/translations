@@ -1,0 +1,184 @@
+name: Request Codeowner Review
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  request-review:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+      # Note: This workflow uses a PAT_TOKEN secret that must have:
+      # - read:org (to read team members)
+      # - pull-requests:write (to request reviewers and comment)
+      # Create a Personal Access Token and add it as a repository secret named 'PAT_TOKEN'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Get changed language directories
+        id: changed-langs
+        run: |
+          # Get changed files
+          CHANGED_FILES=$(git diff --name-only origin/${{ github.base_ref }}...HEAD)
+          
+          # Determine which language directories were changed
+          CHANGED_LANGS=()
+          
+          if echo "$CHANGED_FILES" | grep -q "^english/"; then
+            CHANGED_LANGS+=("english")
+          fi
+          if echo "$CHANGED_FILES" | grep -q "^french/"; then
+            CHANGED_LANGS+=("french")
+          fi
+          if echo "$CHANGED_FILES" | grep -q "^spanish/"; then
+            CHANGED_LANGS+=("spanish")
+          fi
+          if echo "$CHANGED_FILES" | grep -q "^russian/"; then
+            CHANGED_LANGS+=("russian")
+          fi
+          
+          # Convert to JSON array
+          if [ ${#CHANGED_LANGS[@]} -eq 0 ]; then
+            echo 'langs=[]' >> $GITHUB_OUTPUT
+          else
+            JSON_ARRAY="["
+            for i in "${!CHANGED_LANGS[@]}"; do
+              if [ $i -gt 0 ]; then
+                JSON_ARRAY="$JSON_ARRAY,"
+              fi
+              JSON_ARRAY="$JSON_ARRAY\"${CHANGED_LANGS[$i]}\""
+            done
+            JSON_ARRAY="$JSON_ARRAY]"
+            echo "langs=$JSON_ARRAY" >> $GITHUB_OUTPUT
+            echo "Changed language directories: ${CHANGED_LANGS[*]}"
+          fi
+      
+      - name: Request review from random codeowner
+        if: steps.changed-langs.outputs.langs != '[]'
+        env:
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ env.PAT_TOKEN }}
+          script: |
+            const changedLangs = ${{ steps.changed-langs.outputs.langs }};
+            
+            // Map language directories to proofreader teams
+            const langToTeam = {
+              'english': 'proofreader-english',
+              'french': 'proofreader-french',
+              'spanish': 'proofreader-spanish',
+              'russian': 'proofreader-russian'
+            };
+            
+            // Get PR author to exclude from reviewer selection
+            const { data: pr } = await github.rest.pulls.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+            });
+            const prAuthor = pr.user.login;
+            
+            // Always exclude BillyDotWS and the PR author
+            const excludedUsers = ['BillyDotWS', prAuthor];
+            
+            // Get changed files to determine which files each reviewer should review
+            const { data: files } = await github.rest.pulls.listFiles({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+            });
+            
+            // Group changed files by language
+            const filesByLanguage = {};
+            for (const lang of changedLangs) {
+              filesByLanguage[lang] = files
+                .filter(file => file.filename.startsWith(`${lang}/`) && file.filename.endsWith('.json'))
+                .map(file => file.filename);
+            }
+            
+            // Get all teams that need to review
+            const teamsToReview = [...new Set(changedLangs.map(lang => langToTeam[lang]))];
+            
+            const requestedReviewers = [];
+            
+            for (const teamSlug of teamsToReview) {
+              try {
+                // Get team members
+                const { data: members } = await github.rest.teams.listMembersInOrg({
+                  org: context.repo.owner,
+                  team_slug: teamSlug,
+                });
+                
+                // Filter out excluded users (PR author and BillyDotWS)
+                const eligibleMembers = members.filter(member => 
+                  !excludedUsers.includes(member.login)
+                );
+                
+                if (eligibleMembers.length === 0) {
+                  console.log(`No eligible members found in team ${teamSlug} (after excluding ${excludedUsers.join(', ')})`);
+                  continue;
+                }
+                
+                // Randomly select a member from eligible members
+                const randomMember = eligibleMembers[Math.floor(Math.random() * eligibleMembers.length)];
+                
+                // Find which language this team corresponds to
+                const language = Object.keys(langToTeam).find(lang => langToTeam[lang] === teamSlug);
+                const filesToReview = filesByLanguage[language] || [];
+                
+                console.log(`Requesting review from ${randomMember.login} (team: ${teamSlug})`);
+                
+                // Request review from the random member
+                await github.rest.pulls.requestReviewers({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  pull_number: context.issue.number,
+                  reviewers: [randomMember.login],
+                });
+                
+                requestedReviewers.push({
+                  username: randomMember.login,
+                  team: teamSlug,
+                  language: language,
+                  files: filesToReview
+                });
+                
+                console.log(`Successfully requested review from ${randomMember.login}`);
+              } catch (error) {
+                console.error(`Error requesting review for team ${teamSlug}:`, error.message);
+                // Continue with other teams even if one fails
+              }
+            }
+            
+            // Add a comment to the PR if reviewers were requested
+            if (requestedReviewers.length > 0) {
+              let comment = `🔍 **Translation Review Required**\n\nA proofreader has been randomly selected to review this pull request:\n\n`;
+              
+              for (const reviewer of requestedReviewers) {
+                comment += `**@${reviewer.username}** - ${reviewer.language} translations\n`;
+                if (reviewer.files.length > 0) {
+                  comment += `Files to review:\n`;
+                  for (const file of reviewer.files) {
+                    comment += `- \`${file}\`\n`;
+                  }
+                }
+                comment += `\n`;
+              }
+              
+              comment += `Please review the translation changes and ensure they are accurate. Thank you!`;
+              
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: comment,
+              });
+              
+              console.log('Added comment to PR');
+            }
+
