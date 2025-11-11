@@ -1,0 +1,35 @@
+{
+  "settings": "Settings",
+  "disable-using-settings": "§7You can disable this using /settings!",
+  "setmap-to": "§7The next map has been set to §f%%map%%",
+  "set-debug-to": "§7You have set your QA debug state to §f%%state%%",
+  "set-fly-to": "§7You have set your lobby flight to §f%%state%%",
+  "setmap-choose-one-of": "§cInvalid map name! §7Options are: §f%%names%%",
+  "no-permission": "§7\n§c⚠ §cYou do not have permission to do this. §7§oIf this is a mistake, please contact an administrator.\n§7",
+  "scoreboard_show_kit_maps": {
+    "name": "Show kit & map on scoreboard",
+    "description": "Select if you'd like to show or hide the map and kit on the scoreboard"
+  },
+  "premium": {
+    "description": "§7Premium is a one-time purchased rank that enhances users' experiences and gives them exclusive features and benefits on Plexverse. It can be purchased from our Lobby."
+  },
+  "premium_plus": {
+    "description": "§7Premium+ is an enhanced membership tier that offers additional benefits for Premium users. It can be purchased from our Lobby."
+  },
+  "creator": {
+    "description": "§7Creator is a rank designated for community members who actively contribute content to our platform. To apply, visit our website."
+  },
+  "builder": {
+    "description": "§7Builders are responsible for designing maps for Plexverse. They possess expertise in level design, architecture, and excel in creativity. To apply, visit our forums."
+  },
+  "trial_moderator": {
+    "description": "§7Trial Moderators assist the community while learning the ropes and duties of a Moderator. Use §e/msg§7 to ask them a question."
+  },
+  "moderator": {
+    "description": "§7Moderators serve as a bridge between the community and the server's administration while ensuring a smooth and safe operation for all."
+  },
+  "admin": {
+    "description": "§7Admins oversee Plexverse's technical aspects and manage teams to ensure proper server operation."
+  }
+}
+

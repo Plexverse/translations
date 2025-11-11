@@ -1,0 +1,16 @@
+{
+  "name": "translations-validator",
+  "version": "1.0.0",
+  "description": "Translation validation script for PostSuite",
+  "main": "scripts/validate-translations.js",
+  "scripts": {
+    "validate": "node scripts/validate-translations.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
+

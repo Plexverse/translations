@@ -1,0 +1,92 @@
+name: Validate Translations
+
+on:
+  pull_request:
+    paths:
+      - 'english/**'
+      - 'french/**'
+      - 'spanish/**'
+      - '**/*.json'
+
+jobs:
+  detect-changed-languages:
+    runs-on: ubuntu-latest
+    outputs:
+      languages: ${{ steps.set-languages.outputs.languages }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Detect changed languages
+        id: set-languages
+        run: |
+          # Get list of all language directories (excluding 'english')
+          ALL_LANGS=$(find . -maxdepth 1 -type d -not -path '.' -not -path './.git' -not -path './english' -not -path './.github' -not -path './scripts' -not -path './node_modules' | sed 's|^\./||' | sort | uniq)
+          
+          # Get changed files
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            CHANGED_FILES=$(git diff --name-only origin/${{ github.base_ref }}...HEAD)
+          else
+            CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD)
+          fi
+          
+          # Determine which languages were changed
+          CHANGED_LANGS_ARRAY=()
+          ENGLISH_CHANGED=false
+          
+          # Check if English files changed (affects all languages)
+          if echo "$CHANGED_FILES" | grep -q "^english/"; then
+            ENGLISH_CHANGED=true
+          fi
+          
+          if [ "$ENGLISH_CHANGED" = "true" ]; then
+            # If English changed, validate all languages
+            for lang in $ALL_LANGS; do
+              CHANGED_LANGS_ARRAY+=("$lang")
+            done
+          else
+            # Only validate languages that were directly changed
+            for lang in $ALL_LANGS; do
+              if echo "$CHANGED_FILES" | grep -q "^$lang/"; then
+              CHANGED_LANGS_ARRAY+=("$lang")
+              fi
+            done
+          fi
+          
+          # Convert to JSON array (without jq dependency)
+          if [ ${#CHANGED_LANGS_ARRAY[@]} -eq 0 ]; then
+            echo "No language directories changed, skipping validation"
+            echo 'languages=[]' >> $GITHUB_OUTPUT
+          else
+            JSON_ARRAY="["
+            for i in "${!CHANGED_LANGS_ARRAY[@]}"; do
+              if [ $i -gt 0 ]; then
+                JSON_ARRAY="$JSON_ARRAY,"
+              fi
+              JSON_ARRAY="$JSON_ARRAY\"${CHANGED_LANGS_ARRAY[$i]}\""
+            done
+            JSON_ARRAY="$JSON_ARRAY]"
+            echo "Changed languages: ${CHANGED_LANGS_ARRAY[*]}"
+            echo "languages=$JSON_ARRAY" >> $GITHUB_OUTPUT
+          fi
+
+  validate-translations:
+    needs: detect-changed-languages
+    if: needs.detect-changed-languages.outputs.languages != '[]'
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        language: ${{ fromJson(needs.detect-changed-languages.outputs.languages) }}
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Validate ${{ matrix.language }} translations
+        run: node scripts/validate-translations.js ${{ matrix.language }}
+

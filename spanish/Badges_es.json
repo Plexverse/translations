@@ -1,0 +1,211 @@
+{
+  "progress": "Progress",
+  "complete": "Complete",
+  "tier": "Tier",
+  "all-tiers-complete": "All tiers complete",
+  "currently-at-tier": "Currently at Tier",
+  "badges": "Badges",
+  "badge": "badge",
+  "badge-score": "Badge Score",
+  "you-have-obtained": "You have obtained the",
+  "hover-to-view-info": "Hover to view information about this badge!",
+  "you-have-completed-this": "You have completed this!",
+  "has-unlocked": "has unlocked",
+  "bronze": "Bronze (5)",
+  "silver": "Silver (10)",
+  "gold": "Gold (25)",
+  "platinum": "Platinum (100)",
+  "sumo": {
+    "name": "Sumo",
+    "description": "Kill a player from fall damage"
+  },
+  "whoops": {
+    "name": "Whoops!",
+    "description": "Get a kill by knocking a player into the lava"
+  },
+  "micro_battles_archer_wins": {
+    "name": "Archery champion",
+    "description": "Win games using the Archer kit"
+  },
+  "micro_battles_builder_wins": {
+    "name": "Amazing builder",
+    "description": "Win games using the Builder kit"
+  },
+  "micro_battles_fighter_wins": {
+    "name": "Gladiator",
+    "description": "Win games using the Fighter kit"
+  },
+  "sneaky": {
+    "name": "Sneaky",
+    "description": "Get a kill while sneaking"
+  },
+  "pick_it_to_win_it": {
+    "name": "Pick it to win it",
+    "description": "Get a kill with a pickaxe"
+  },
+  "micro_battles_kills": {
+    "name": "Micro killer",
+    "description": "Kill players in Micro Battles"
+  },
+  "micro_battles_win": {
+    "name": "Micro Battles winner",
+    "description": "Win games of Micro Battles"
+  },
+  "gotta_go_fast": {
+    "name": "Gotta go fast",
+    "description": "Win a game under 60 seconds"
+  },
+  "who_needs_those": {
+    "name": "Who needs those?",
+    "description": "Win a game without opening a chest"
+  },
+  "spooky_ghost": {
+    "name": "Spooky Ghost",
+    "description": "Kill a player when they are invisible"
+  },
+  "well_this_is_new": {
+    "name": "Well this is new",
+    "description": "Win using a rotating kit"
+  },
+  "early_bird_gets_the_worm": {
+    "name": "Early bird gets the worm",
+    "description": "Be the first player to open a chest"
+  },
+  "aim_is_the_game": {
+    "name": "Aim is the game",
+    "description": "Have an ender pearl save you from falling into the void"
+  },
+  "practice_makes_perfect": {
+    "name": "Practice makes perfect",
+    "description": "Kill a player from 30 blocks away with an arrow"
+  },
+  "skywars_explorer": {
+    "name": "Explorer",
+    "description": "Play on every Skywars map in a given rotation"
+  },
+  "which_do_i_choose": {
+    "name": "Which do I choose?",
+    "description": "Win in Skywars using 10 unique kits"
+  },
+  "going_to_the_end": {
+    "name": "Going to the End",
+    "description": "Hold 16 ender pearls at once"
+  },
+  "peaceful_mode": {
+    "name": "Peaceful mode",
+    "description": "Win a game without anyone on your team hitting anyone"
+  },
+  "voided": {
+    "name": "Voided",
+    "description": "Knock a player into the void with projectiles"
+  },
+  "forgot_my_parachute": {
+    "name": "Forgot my parachute",
+    "description": "Kill a player by hitting them into the void"
+  },
+  "micro_battles_random": {
+    "name": "Randomness!",
+    "description": "Win using a random kit"
+  },
+  "micro_battles_experimentalist": {
+    "name": "Experimentalist",
+    "description": "Win using every kit"
+  },
+  "no_block_left_behind": {
+    "name": "No block left behind",
+    "description": "Collect 64 of the same block in your inventory in one game."
+  },
+  "that_was_quick": {
+    "name": "That was quick",
+    "description": "Get a kill within the first 5 seconds of the walls dropping"
+  },
+  "no_blocks_no_problem": {
+    "name": "No blocks, no problem",
+    "description": "Win a game without breaking or placing blocks"
+  },
+  "skywars_chest_looter": {
+    "name": "Chest looter",
+    "description": "Loot chests in Skywars"
+  },
+  "professional_boxer": {
+    "name": "Professional boxer",
+    "description": "Kill a player with only your fist"
+  },
+  "unbiased_killer": {
+    "name": "Unbiased killer",
+    "description": "Kill at least one player from every team in a game"
+  },
+  "hot_bath": {
+    "name": "Hot bath",
+    "description": "Kill a player while swimming in lava"
+  },
+  "dead_eye": {
+    "name": "Dead eye",
+    "description": "Get 4 kills with a bow in one game"
+  },
+  "what_map": {
+    "name": "What map?",
+    "description": "Win a game after the entire map has been corrupted"
+  },
+  "micro_battles_clutch": {
+    "name": "Clutch",
+    "description": "Win a game while being the last member of your team standing."
+  },
+  "micro_battles_explorer": {
+    "name": "Explorer",
+    "description": "Play on every Micro Battles map in a given rotation"
+  },
+  "skywars_wins": {
+    "name": "Skywars winner",
+    "description": "Win games of Skywars."
+  },
+  "skywars_kills": {
+    "name": "Skywars murderer",
+    "description": "Kill players in Skywars"
+  },
+  "speed_builders_wins": {
+    "name": "Speed Builders winner",
+    "description": "Win games of Speed Builders."
+  },
+  "perfect_builds": {
+    "name": "Perfect builder",
+    "description": "Get perfect builds (non-unique)"
+  },
+  "rising_the_ranks": {
+    "name": "Rising the Ranks",
+    "description": "Reach round 15"
+  },
+  "i_am_speed": {
+    "name": "I am Speed",
+    "description": "Complete a build within 5 seconds"
+  },
+  "ascended": {
+    "name": "Ascended",
+    "description": "Reach round 30"
+  },
+  "speed_builders_explorer": {
+    "name": "Explorer",
+    "description": "Play on every Speed Builders map in a given rotation"
+  },
+  "speed_builders_challenger": {
+    "name": "Challenger",
+    "description": "Reach Round 5"
+  },
+  "unique_demon_builds": {
+    "name": "Demonic builder",
+    "description": "Complete unique demon builds"
+  },
+  "unique_medium_builds": {
+    "name": "Mediocre builder",
+    "description": "Complete unique medium difficulty builds"
+  },
+  "unique_hard_builds": {
+    "name": "Hard worker",
+    "description": "Complete unique hard difficulty builds"
+  },
+  "unique_easy_builds": {
+    "name": "Bob the builder",
+    "description": "Complete unique easy difficulty builds"
+  }
+}
+

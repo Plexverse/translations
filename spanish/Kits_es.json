@@ -1,0 +1,135 @@
+{
+  "choose-bedrock-kit-title": "Select a %%game%% kit!",
+  "choose-bedrock-kit-desc": "Click on a kit to choose!",
+  "rotating": "Rotating",
+  "rotating-away-in": "Rotating in %%time%%",
+  "rotating-away-soon": "Rotating away soon!",
+  "experience": "Experience",
+  "you-have-selected": "§7You have selected §f%%kit%%§7!",
+  "a-random": "a random kit",
+  "swapped-with": "§7You were swapped with §f%%player%%§7 using the Swapper kit! You will teleport back in §e5 seconds§7!",
+  "select-your-kit": "§dSelect your kit!",
+  "random-kit-description": "§7A randomly selected kit",
+  "random-kit": "Random",
+  "kits": "Kits",
+  "currently-chosen-kit": "§7You have §f%%current%% §7kit currently chosen!",
+  "lifesteal-ability-activated": "§7You were healed §c2❤§7 due to your lifesteal ability!",
+  "kit-level-increase": "§7\n§e⬆ §f%%kit%% §dkit has leveled up! §5[%%previous%% §e➜ §d%%new%%]\n§7§oHover to view progress towards the next level.\n§7",
+  "MICRO_BATTLES": {
+    "fighter": {
+      "name": "Fighter",
+      "description": "Lifesteal: Killing a player heals 2 hp. <newline> •_Wooden_Sword (Sharpness 1)"
+    },
+    "archer": {
+      "name": "Archer",
+      "description": "Robin Hood: Receives 1x arrow every 10 seconds. Your quiver can hold a maximum of 3 arrows. <newline> <newline> •_Wooden_Sword <newline> •_Bow"
+    },
+    "builder-mb": {
+      "name": "Builder",
+      "description": "Excavator Overdrive: Receive haste for 7 seconds upon breaking a block. Cooldown of 25 seconds between uses. <newline> <newline> •_Wooden_Sword <newline> •_Stone_Pickaxe <newline> •_Stone_Shovel <newline> •_Stone_Axe"
+    },
+    "no_kit_micro_battles": {
+      "name": "No Kit",
+      "description": "No items, just pure skill."
+    }
+  },
+  "SKYWARS": {
+    "fighter": {
+      "name": "Fighter",
+      "description": "•_Iron_Chestplate <newline> •_Chain_Boots <newline> •_Stone_Sword <newline> •_10_Steak"
+    },
+    "tools": {
+      "name": "Tools",
+      "description": "•_Leather_Helmet <newline> •_Leather_Chestplate <newline> •_Lether_Leggings <newline> •_Leather_Boots <newline> •_Iron_Pickaxe <newline> •_Iron_Axe <newline> •_Iron_Shovel"
+    },
+    "flash": {
+      "name": "Flash",
+      "description": "•_Leather_Chestplate <newline> •_Lether_Leggings <newline> •_Chain_Boots <newline> •_Diamond_Axe <newline> •_Speed_II_Potion_(2x)"
+    },
+    "builder": {
+      "name": "Builder",
+      "description": "•_Iron_Leggings <newline> •_Scaffolding_(16x)_<newline> •_Logs_(16x) <newline> •_Cobble_(32x) <newline> •_Wool_(16x)"
+    },
+    "strongman": {
+      "name": "Strongman",
+      "description": "•_Iron_Helmet <newline> •_Leather_Chestplate <newline> •_Leather_Leggings <newline> •_Leather_Boots <newline> •_Strength_II_Potion_(2x)"
+    },
+    "engineer": {
+      "name": "Engineer",
+      "description": "•_Leather_Chestplate <newline> •_Lether_Leggings <newline> •_Pistons_(6x) <newline> •_Redstone (16x) <newline> •_Cobblestone_(20x) <newline> •_Repeater_(3x)"
+    },
+    "sniper": {
+      "name": "Sniper",
+      "description": "•_Bow <newline> •_Arrows_(20x)"
+    },
+    "assassin": {
+      "name": "Assassin",
+      "description": "•_Leather_Chestplate <newline> •_Leather_Boots <newline> •_Invisibility_Potion_(2x)"
+    },
+    "enchanter": {
+      "name": "Enchanter",
+      "description": "•_Leather_Helmet <newline> •_Enchantment_Table <newline> •_Anvil <newline> •_Bottle_o'_Enchanting (32x)"
+    },
+    "mage": {
+      "name": "Mage",
+      "description": "•_Gold_Helmet <newline> •_Gold_Chestplate <newline> •_Slowness_II_Potion_(2x) <newline> •_Healing_II_Potion_(2x) <newline> •_Milk_Bucket"
+    },
+    "sharpshooter": {
+      "name": "Sharpshooter",
+      "description": "•_Leather_Chestplate <newline> •_Crossbows_(2x) <newline> •_Arrow_(10x)"
+    },
+    "bomber": {
+      "name": "Bomber",
+      "description": "•_Diamond_Helmet <newline> •_TNT_(10x) <newline> •_Flint_and_Steel <newline> •_Pressure_Plates_(5x) <newline> •_Water_Bucket"
+    },
+    "spider": {
+      "name": "Spider",
+      "description": "•_Leather_Helmet <newline> •_Leather_Chestplate <newline> •_Golden_Boots <newline> •_Jump_Boost_III_Potion <newline> •_Cobwebs_(6x)"
+    },
+    "gappler": {
+      "name": "Gappler",
+      "description": "•_Iron_Chestplate <newline> •_Golden_Apple_(3x)"
+    },
+    "water": {
+      "name": "Water",
+      "description": "I'm a fish! (placeholder text)"
+    },
+    "necrotic": {
+      "name": "Necrotic",
+      "description": "Tap into the dark arts and unleash your inner power. With each strike, a sword from within unleashes additional damage."
+    },
+    "amnesia": {
+      "name": "Amnesia",
+      "description": "I forgot to describe this kit, oops! (placeholder text)"
+    },
+    "pearler": {
+      "name": "Pearler",
+      "description": "Throw a pearl! (placeholder text)"
+    },
+    "air": {
+      "name": "Air",
+      "description": "Take to the skies, equipped with a special leaping ability, you can save yourself from falling into the abyss."
+    },
+    "earth": {
+      "name": "Earth",
+      "description": "Throw dirt blocks at people lol"
+    },
+    "fire": {
+      "name": "Fire",
+      "description": "Gives a fire staff"
+    },
+    "swapper": {
+      "name": "Swapper",
+      "description": "Swap location with a random player for 10 seconds!"
+    },
+    "disrupter": {
+      "name": "Disrupter",
+      "description": "Harness the power of corruption to unleash chaos using your expert marksmanship to drill holes deep into the heart of the abyss."
+    },
+    "no_kit_skywars": {
+      "name": "No kit",
+      "description": "No kit in sight!"
+    }
+  }
+}
+

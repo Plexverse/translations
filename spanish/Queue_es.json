@@ -1,0 +1,19 @@
+{
+  "no-server-found": "§cNo %%game%% server found, please try again soon!",
+  "player-joined": "§7%%player%% has joined! §7[§f%%count%% / %%max%%§7]",
+  "player-left": "§7%%player%% has quit! §7[§f%%count%% / %%max%%§7]",
+  "not-enough-players-kick": "§cNot enough players joined, try and requeue!",
+  "sending-to-game": "§7Added you to the queue for §f%%game%%§7!",
+  "game-start-delayed": "\n§f§lGame start has been delayed! §7Expanded the timer and announced the game in lobbies to get players to join!\n",
+  "server-full": "§7The server is full, starting in 10 seconds!",
+  "starting-in-title": "§aStarting in %%time%%",
+  "game-ended-kick": "§7Returning you to the Plexverse lobby!",
+  "waiting-for-players-title": "§aWaiting for %%amount%% more player(s)",
+  "invalid-game-type": "§cInvalid game type provided?",
+  "lobby-return": "§dReturn to the Lobby!",
+  "queue": "Queue",
+  "already-in-queue": "§cAlready in a queue! §7Use §f/unqueue§7 to unqueue!",
+  "removed-from-queue-too-long": "§cYou were removed from the queue as it has been longer than 2 minutes!",
+  "unqueued": "§7Removed you from your current queue!"
+}
+
