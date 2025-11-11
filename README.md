@@ -9,6 +9,20 @@ Translation files for the Plexverse server. This repository contains all transla
 > [!NOTE]
 > Translations can take up to 24 hours to propagate to in-game servers after being merged.
 
+## Contributors
+
+[![Contributors](https://contributors-img.web.app/image?repo=Plexverse/translations&columns=8&anon=1)](https://github.com/Plexverse/translations/graphs/contributors)
+
+## Supported Languages
+
+- **English** (`en`) - Base language, source of truth
+- **French** (`fr`)
+- **Spanish** (`es`)
+- **Russian** (`ru`)
+- **Pirate** (`pir`)
+
+If you'd like another language supported, please reach out to our team on discord. We're happy to onboard new languages!
+
 ## Structure
 
 The repository is organized by language, with each language having its own directory:
@@ -39,16 +53,6 @@ translations/
 └── .scripts/         # Validation scripts
     └── validate-translations.js
 ```
-
-## Supported Languages
-
-- **English** (`en`) - Base language, source of truth
-- **French** (`fr`)
-- **Spanish** (`es`)
-- **Russian** (`ru`)
-- **Pirate** (`pir`)
-
-If you'd like another language supported, please reach out to our team on discord. We're happy to onboard new languages!
 
 ## Translation Files
 
@@ -91,6 +95,8 @@ Translation strings support:
 - **All languages must have all keys**: The validation system ensures this
 - **Keep placeholder variables**: Maintain `%%variable%%` placeholders in all languages
 - **Preserve formatting codes**: Keep `§` color codes and special characters
+- **Do not translate game names**: Game names, mode names, and other proper nouns should remain in their original form
+- **Do not translate variable names**: Variable names in placeholders (e.g., `%%player%%`, `%%time%%`) should not be translated
 
 ## Validation
 
