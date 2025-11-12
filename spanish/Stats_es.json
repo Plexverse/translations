@@ -1,12 +1,11 @@
 {
-  "stats": "Stats",
-  "perfectBuilds": "Perfect Builds",
-  "kills": "Kills",
-  "kills-bedrock": "Kills",
-  "teamKills": "Team Kills",
-  "playersLeft": "Players Left",
-  "alive": "Alive",
+  "stats": "Estadísticas",
+  "perfectBuilds": "Construcciones Perfectas",
+  "kills": "Asesinatos",
+  "kills-bedrock": "Asesinatos",
+  "teamKills": "Asesinatos de Equipo",
+  "playersLeft": "Jugadores Restantes",
+  "alive": "Vivos",
   "kit": "Kit",
-  "map": "Map"
+  "map": "Mapa"
 }
-
