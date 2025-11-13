@@ -6,8 +6,8 @@
   "set-fly-to": "§7Вы перевели полет в лобби в состояние §f%%state%%",
   "setmap-choose-one-of": "§cНеизвестное имя карты! §7Доступны следующие опции: §f%%names%%",
   "no-permission": "§7\n§c⚠ §cУ вас нет разрешений на данное действие! §7§oЕсли вы считаете это ошибкой, то обратитесь к администратору.\n§7",
-  "language-set-success": "§7Your language has been set to §f%%language%%",
-  "language-invalid": "§cInvalid language! §7Available languages: §f%%available%%",
+  "language-set-success": "§7Ваш язык был изменен на §f%%language%%",
+  "language-invalid": "§cНеверный язык! §7Доступные языки: §f%%available%%",
   "scoreboard_show_kit_maps": {
     "name": "Отображать боковую панель с набором и картой",
     "description": "Определяет будет ли отображаться боковая панель с информацией о наборе и карте"
