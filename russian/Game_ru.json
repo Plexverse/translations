@@ -136,6 +136,8 @@
   "dislike": "Dislike",
   "neutral": "Neutral",
   "like": "Like",
-  "sending-to-new-server": "§aSending you a new %%game%% server"
+  "sending-to-new-server": "§aSending you a new %%game%% server",
+  "plexverse-build-team": "Plexverse Build Team",
+  "mineplex-build-team": "Mineplex Build Team"
 }
 
