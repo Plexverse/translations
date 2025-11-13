@@ -1,91 +1,91 @@
 {
-  "progress": "Progress",
+  "progress": "Прогресс",
   "complete": "Выполнено",
-  "tier": "Tier",
-  "all-tiers-complete": "All tiers complete",
-  "currently-at-tier": "Currently at Tier",
+  "tier": "Уровень",
+  "all-tiers-complete": "Выполнены все уровни",
+  "currently-at-tier": "Текущий уровень",
   "badges": "Значок",
-  "badge": "badge",
-  "badge-score": "Badge Score",
-  "you-have-obtained": "You have obtained the",
-  "hover-to-view-info": "Hover to view information about this badge!",
-  "you-have-completed-this": "You have completed this!",
-  "has-unlocked": "has unlocked",
-  "bronze": "Bronze (5)",
-  "silver": "Silver (10)",
-  "gold": "Gold (25)",
-  "platinum": "Platinum (100)",
+  "badge": "значок",
+  "badge-score": "Очков по значкам",
+  "you-have-obtained": "Вы получили",
+  "hover-to-view-info": "Наведите, чтобы просмотреть информацию об этом значке!",
+  "you-have-completed-this": "Это вы выполнили!",
+  "has-unlocked": "разблокировал",
+  "bronze": "Бронза (5)",
+  "silver": "Серебро (10)",
+  "gold": "Золото (25)",
+  "platinum": "Платина (100)",
   "sumo": {
-    "name": "Sumo",
-    "description": "Kill a player from fall damage"
+    "name": "Сумо",
+    "description": "Убейте игрока уроном от падаения"
   },
   "whoops": {
-    "name": "Whoops!",
-    "description": "Get a kill by knocking a player into the lava"
+    "name": "Упс!",
+    "description": "Получите убийство путем скидывания игрока в лаву"
   },
   "micro_battles_archer_wins": {
-    "name": "Archery champion",
-    "description": "Win games using the Archer kit"
+    "name": "Чемпион по стрельбе",
+    "description": "Выиграйте игры, используя набор Лучник"
   },
   "micro_battles_builder_wins": {
-    "name": "Amazing builder",
-    "description": "Win games using the Builder kit"
+    "name": "Удивительный строитель",
+    "description": "Выиграйте игры, используя набор Строитель"
   },
   "micro_battles_fighter_wins": {
-    "name": "Gladiator",
-    "description": "Win games using the Fighter kit"
+    "name": "Гладиатор",
+    "description": "Выиграйте игры, используя набор Боец"
   },
   "sneaky": {
     "name": "Sneaky",
-    "description": "Get a kill while sneaking"
+    "description": "Получите убийство когда крадетесь"
   },
   "pick_it_to_win_it": {
-    "name": "Pick it to win it",
-    "description": "Get a kill with a pickaxe"
+    "name": "Ударь для победы",
+    "description": "Получите убийство с помощью кирки"
   },
   "micro_battles_kills": {
-    "name": "Micro killer",
-    "description": "Kill players in Micro Battles"
+    "name": "Микро-убийца",
+    "description": "Убивайте игроков в Micro Battles"
   },
   "micro_battles_win": {
-    "name": "Micro Battles winner",
-    "description": "Win games of Micro Battles"
+    "name": "Победитель в Micro Battles",
+    "description": "Выигрывайте игры Micro Battles"
   },
   "gotta_go_fast": {
-    "name": "Gotta go fast",
-    "description": "Win a game under 60 seconds"
+    "name": "Надо идти быстро",
+    "description": "Выиграйте за 60 секунд"
   },
   "who_needs_those": {
-    "name": "Who needs those?",
-    "description": "Win a game without opening a chest"
+    "name": "Да кому они вообще нужны?",
+    "description": "Выиграйте игру, не открывая сундуки"
   },
   "spooky_ghost": {
-    "name": "Spooky Ghost",
-    "description": "Kill a player when they are invisible"
+    "name": "Жуткий призрак",
+    "description": "Убейте игрков с невидимостью"
   },
   "well_this_is_new": {
-    "name": "Well this is new",
-    "description": "Win using a rotating kit"
+    "name": "Ну, это новое",
+    "description": "Выиграйте, используя набор из ротации"
   },
   "early_bird_gets_the_worm": {
-    "name": "Early bird gets the worm",
-    "description": "Be the first player to open a chest"
+    "name": "Ранняя пташка получает червяка",
+    "description": "Будьте первый игроком, кто откроет сундук"
   },
   "aim_is_the_game": {
-    "name": "Aim is the game",
-    "description": "Have an ender pearl save you from falling into the void"
+    "name": "Цель – это игра",
+    "description": "С помощю эндер-жемчуга спаситесь от падаения в пустоту"
   },
   "practice_makes_perfect": {
-    "name": "Practice makes perfect",
-    "description": "Kill a player from 30 blocks away with an arrow"
+    "name": "Практика совершенствует",
+    "description": "Убейте игрока стрелой на расстоянии 30 блоков"
   },
   "skywars_explorer": {
-    "name": "Explorer",
-    "description": "Play on every Skywars map in a given rotation"
+    "name": "Исследователь",
+    "description": "Сыиграйте на всех картах Skywars из текущей ротации"
   },
   "which_do_i_choose": {
-    "name": "Which do I choose?",
-    "description": "Win in Skywars using 10 unique kits"
+    "name": "Какой же мне выбрать?",
+    "description": "Выиграте игры в Skywars, используя 10 уникальных наборовs"
   },
   "going_to_the_end": {
     "name": "Going to the End",
