@@ -14,6 +14,9 @@
   "queue": "Queue",
   "already-in-queue": "§cAlready in a queue! §7Use §f/unqueue§7 to unqueue!",
   "removed-from-queue-too-long": "§cYou were removed from the queue as it has been longer than 2 minutes!",
-  "unqueued": "§7Removed you from your current queue!"
+  "unqueued": "§7Removed you from your current queue!",
+  "wait-for-more-players": "Want to wait for more players to join?",
+  "click-here": "§e§lCLICK HERE",
+  "expand-start-timer": "§f§lto expand the start timer"
 }
 

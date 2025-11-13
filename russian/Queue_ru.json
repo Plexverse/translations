@@ -14,6 +14,9 @@
   "queue": "Очередь",
   "already-in-queue": "§cУже в очереди! §7Используйте §f/unqueue§7 для выхода из очереди!",
   "removed-from-queue-too-long": "§cВы были убраны из очереди так как прошло больше 2 минут!",
-  "unqueued": "§7Вы покинули текущую очередь!"
+  "unqueued": "§7Вы покинули текущую очередь!",
+  "wait-for-more-players": "Want to wait for more players to join?",
+  "click-here": "§e§lCLICK HERE",
+  "expand-start-timer": "§f§lto expand the start timer"
 }
 
