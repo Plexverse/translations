@@ -1,12 +1,12 @@
 {
-  "stats": "Stats",
-  "perfectBuilds": "Perfect Builds",
-  "kills": "Kills",
-  "kills-bedrock": "Kills",
-  "teamKills": "Team Kills",
-  "playersLeft": "Players Left",
-  "alive": "Alive",
-  "kit": "Kit",
-  "map": "Map"
+  "stats": "Статистика",
+  "perfectBuilds": "Идеальных построек",
+  "kills": "Убийств",
+  "kills-bedrock": "Убийств",
+  "teamKills": "Убийства команды",
+  "playersLeft": "Оставшиеся игроки",
+  "alive": "В живых",
+  "kit": "Набор",
+  "map": "Карта"
 }
 
