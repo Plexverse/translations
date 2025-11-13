@@ -1,35 +1,34 @@
 {
   "settings": "Settings",
-  "disable-using-settings": "§7You can disable this using /settings!",
+  "disable-using-settings": "§7Ye can disable this usin' /settings, arr!",
   "setmap-to": "§7The next map has been set to §f%%map%%",
-  "set-debug-to": "§7You have set your QA debug state to §f%%state%%",
-  "set-fly-to": "§7You have set your lobby flight to §f%%state%%",
-  "setmap-choose-one-of": "§cInvalid map name! §7Options are: §f%%names%%",
-  "no-permission": "§7\n§c⚠ §cYou do not have permission to do this. §7§oIf this is a mistake, please contact an administrator.\n§7",
+  "set-debug-to": "§7Ye have set yer QA debug state to §f%%state%%",
+  "set-fly-to": "§7Ye have set yer lobby flight to §f%%state%%",
+  "setmap-choose-one-of": "§cInvalid map name, arr! §7Options be: §f%%names%%",
+  "no-permission": "§7\n§c⚠ §cYe don't have permission to do this, matey! §7§oIf this be a mistake, please contact an administrator.\n§7",
   "scoreboard_show_kit_maps": {
     "name": "Show kit & map on scoreboard",
-    "description": "Select if you'd like to show or hide the map and kit on the scoreboard"
+    "description": "Select if ye'd like to show or hide the map and kit on the scoreboard"
   },
   "premium": {
-    "description": "§7Premium is a one-time purchased rank that enhances users' experiences and gives them exclusive features and benefits on Plexverse. It can be purchased from our Lobby."
+    "description": "§7Premium be a one-time purchased rank that enhances users' experiences and gives 'em exclusive features and benefits on Plexverse. It can be purchased from our Lobby, arr!"
   },
   "premium_plus": {
-    "description": "§7Premium+ is an enhanced membership tier that offers additional benefits for Premium users. It can be purchased from our Lobby."
+    "description": "§7Premium+ be an enhanced membership tier that offers additional benefits for Premium users. It can be purchased from our Lobby, arr!"
   },
   "creator": {
-    "description": "§7Creator is a rank designated for community members who actively contribute content to our platform. To apply, visit our website."
+    "description": "§7Creator be a rank designated for community members who actively contribute content to our platform. To apply, visit our website, matey!"
   },
   "builder": {
-    "description": "§7Builders are responsible for designing maps for Plexverse. They possess expertise in level design, architecture, and excel in creativity. To apply, visit our forums."
+    "description": "§7Builders be responsible for designing maps for Plexverse. They possess expertise in level design, architecture, and excel in creativity. To apply, visit our forums, arr!"
   },
   "trial_moderator": {
-    "description": "§7Trial Moderators assist the community while learning the ropes and duties of a Moderator. Use §e/msg§7 to ask them a question."
+    "description": "§7Trial Moderators assist the community while learnin' the ropes and duties of a Moderator. Use §e/msg§7 to ask 'em a question, matey!"
   },
   "moderator": {
-    "description": "§7Moderators serve as a bridge between the community and the server's administration while ensuring a smooth and safe operation for all."
+    "description": "§7Moderators serve as a bridge between the community and the server's administration while ensurin' a smooth and safe operation for all, arr!"
   },
   "admin": {
-    "description": "§7Admins oversee Plexverse's technical aspects and manage teams to ensure proper server operation."
+    "description": "§7Admins oversee Plexverse's technical aspects and manage teams to ensure proper server operation, matey!"
   }
 }
-
