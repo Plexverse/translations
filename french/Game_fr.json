@@ -130,5 +130,11 @@
   "error-loading-builds": "§cError loading builds from resources!",
   "build-not-found": "§cBuild '%%buildName%%' not found!",
   "build-not-found-suggestions": "§cBuild '%%buildName%%' not found! Similar builds: §e%%suggestions%%",
-  "next-build-set": "§aNext build set to: §f%%buildName%% §7(%%difficulty%%)"
+  "next-build-set": "§aNext build set to: §f%%buildName%% §7(%%difficulty%%)",
+  "you-are-team": "You are %%team%%",
+  "join-build-team": "§7Join our build team on our forums!",
+  "dislike": "Dislike",
+  "neutral": "Neutral",
+  "like": "Like",
+  "sending-to-new-server": "§aSending you a new %%game%% server"
 }

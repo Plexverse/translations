@@ -26,7 +26,7 @@
   "only-your-build-area": "§7Вы можете строить только в зоне, предназначенной для строительства!",
   "build-in-build-area": "§7Ставьте и ломайте блоки внутри вашей зоны для строительства!",
   "personal-best-sb": "Ваш лучший результат",
-  "sb-star-hover": "§7Зарабатывайте звезды в Speed Builders путем \n§7постройки идеально в играх!\n\n§7Вы получаете §61 звезду за §aлёгкие постройки§7, §63 звезды за\n§6средние постройки, §c5 за сложные постройки§7 и §525 за\nдемонические постройки!\n\n§7%%player%% заработал §a%%total%% звезд§7 и \n§e%%this_game%%§7 за текущую игру!",  
+  "sb-star-hover": "§7Зарабатывайте звезды в Speed Builders путем \n§7постройки идеально в играх!\n\n§7Вы получаете §61 звезду за §aлёгкие постройки§7, §63 звезды за\n§6средние постройки, §c5 за сложные постройки§7 и §525 за\nдемонические постройки!\n\n§7%%player%% заработал §a%%total%% звезд§7 и \n§e%%this_game%%§7 за текущую игру!",
   "best-time-made": "§a%%player%%§7 побил свой лучший результат (§b%%old_time%%§7).",
   "island-perfect-build": "§a%%player%%§7 скопировал постройку идеально за §e%%time%%§7.",
   "gwen-impressed": "§3Страж Gwen впечатлен!",
@@ -130,6 +130,12 @@
   "error-loading-builds": "§cОшибка загрузки построек из ресурсов!!",
   "build-not-found": "§cПостройка '%%buildName%%' не найдена!",
   "build-not-found-suggestions": "§c§cПостройка '%%buildName%%' не найдена! Похожие постройки: §e%%suggestions%%",
-  "next-build-set": "§aУстановлена следующая посторойка: §f%%buildName%% §7(%%difficulty%%)"
+  "next-build-set": "§aУстановлена следующая посторойка: §f%%buildName%% §7(%%difficulty%%)",
+  "you-are-team": "You are %%team%%",
+  "join-build-team": "§7Join our build team on our forums!",
+  "dislike": "Dislike",
+  "neutral": "Neutral",
+  "like": "Like",
+  "sending-to-new-server": "§aSending you a new %%game%% server"
 }
 
