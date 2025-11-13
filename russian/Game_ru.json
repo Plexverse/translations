@@ -139,8 +139,8 @@
   "sending-to-new-server": "§aОтправляем вас на новый сервер для игры %%game%%",
   "plexverse-build-team": "Команда строителей Plexverse",
   "mineplex-build-team": "Команда строителей Mineplex",
-  "ending-in": "§bEnding in %%time%%",
-  "dark-matter": "Dark Matter",
-  "kit-experience": "Kit Experience"
+  "ending-in": "§bКонец через %%time%%",
+  "dark-matter": "Темная материя",
+  "kit-experience": "Опыт набора"
 }
 
