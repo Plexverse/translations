@@ -1,211 +1,210 @@
 {
-  "progress": "Progress",
-  "complete": "Complete",
-  "tier": "Tier",
-  "all-tiers-complete": "All tiers complete",
-  "currently-at-tier": "Currently at Tier",
-  "badges": "Badges",
-  "badge": "badge",
-  "badge-score": "Badge Score",
-  "you-have-obtained": "You have obtained the",
-  "hover-to-view-info": "Hover to view information about this badge!",
-  "you-have-completed-this": "You have completed this!",
-  "has-unlocked": "has unlocked",
-  "bronze": "Bronze (5)",
-  "silver": "Silver (10)",
-  "gold": "Gold (25)",
-  "platinum": "Platinum (100)",
+  "progress": "Progreso",
+  "complete": "Completado",
+  "tier": "Nivel",
+  "all-tiers-complete": "Todos los niveles completados",
+  "currently-at-tier": "Actualmente en el nivel",
+  "badges": "Insignias",
+  "badge": "insignia",
+  "badge-score": "Puntuación de insignias",
+  "you-have-obtained": "Has obtenido la",
+  "hover-to-view-info": "Pasa el cursor para ver información sobre esta insignia.",
+  "you-have-completed-this": "¡Has completado esto!",
+  "has-unlocked": "ha desbloqueado",
+  "bronze": "Bronce (5)",
+  "silver": "Plata (10)",
+  "gold": "Oro (25)",
+  "platinum": "Platino (100)",
   "sumo": {
     "name": "Sumo",
-    "description": "Kill a player from fall damage"
+    "description": "Elimina a un jugador causando daño por caída."
   },
   "whoops": {
-    "name": "Whoops!",
-    "description": "Get a kill by knocking a player into the lava"
+    "name": "¡Ups!",
+    "description": "Consigue una eliminación empujando a un jugador a la lava."
   },
   "micro_battles_archer_wins": {
-    "name": "Archery champion",
-    "description": "Win games using the Archer kit"
+    "name": "Campeón arquero",
+    "description": "Gana partidas usando el kit de Arquero."
   },
   "micro_battles_builder_wins": {
-    "name": "Amazing builder",
-    "description": "Win games using the Builder kit"
+    "name": "Constructor asombroso",
+    "description": "Gana partidas usando el kit de Constructor."
   },
   "micro_battles_fighter_wins": {
-    "name": "Gladiator",
-    "description": "Win games using the Fighter kit"
+    "name": "Gladiador",
+    "description": "Gana partidas usando el kit de Luchador."
   },
   "sneaky": {
-    "name": "Sneaky",
-    "description": "Get a kill while sneaking"
+    "name": "Sigiloso",
+    "description": "Elimina a un jugador mientras estás agachado."
   },
   "pick_it_to_win_it": {
-    "name": "Pick it to win it",
-    "description": "Get a kill with a pickaxe"
+    "name": "Pico ganador",
+    "description": "Consigue una eliminación usando un pico."
   },
   "micro_battles_kills": {
-    "name": "Micro killer",
-    "description": "Kill players in Micro Battles"
+    "name": "Asesino micro",
+    "description": "Elimina jugadores en Micro Battles."
   },
   "micro_battles_win": {
-    "name": "Micro Battles winner",
-    "description": "Win games of Micro Battles"
+    "name": "Ganador de Micro Battles",
+    "description": "Gana partidas de Micro Battles."
   },
   "gotta_go_fast": {
-    "name": "Gotta go fast",
-    "description": "Win a game under 60 seconds"
+    "name": "¡A toda velocidad!",
+    "description": "Gana una partida en menos de 60 segundos."
   },
   "who_needs_those": {
-    "name": "Who needs those?",
-    "description": "Win a game without opening a chest"
+    "name": "¿Quién necesita eso?",
+    "description": "Gana una partida sin abrir cofres."
   },
   "spooky_ghost": {
-    "name": "Spooky Ghost",
-    "description": "Kill a player when they are invisible"
+    "name": "Fantasma espeluznante",
+    "description": "Elimina a un jugador mientras es invisible."
   },
   "well_this_is_new": {
-    "name": "Well this is new",
-    "description": "Win using a rotating kit"
+    "name": "Esto sí que es nuevo",
+    "description": "Gana usando un kit rotativo."
   },
   "early_bird_gets_the_worm": {
-    "name": "Early bird gets the worm",
-    "description": "Be the first player to open a chest"
+    "name": "El madrugador atrapa el botín",
+    "description": "Sé el primer jugador en abrir un cofre."
   },
   "aim_is_the_game": {
-    "name": "Aim is the game",
-    "description": "Have an ender pearl save you from falling into the void"
+    "name": "Apuntar es ganar",
+    "description": "Sálvate de caer al vacío con una perla de ender."
   },
   "practice_makes_perfect": {
-    "name": "Practice makes perfect",
-    "description": "Kill a player from 30 blocks away with an arrow"
+    "name": "La práctica hace al maestro",
+    "description": "Elimina a un jugador desde 30 bloques de distancia con un arco."
   },
   "skywars_explorer": {
-    "name": "Explorer",
-    "description": "Play on every Skywars map in a given rotation"
+    "name": "Explorador",
+    "description": "Juega en todos los mapas de Skywars de una rotación."
   },
   "which_do_i_choose": {
-    "name": "Which do I choose?",
-    "description": "Win in Skywars using 10 unique kits"
+    "name": "¿Cuál elijo?",
+    "description": "Gana en Skywars usando 10 kits distintos."
   },
   "going_to_the_end": {
-    "name": "Going to the End",
-    "description": "Hold 16 ender pearls at once"
+    "name": "Rumbo al End",
+    "description": "Ten 16 perlas de ender en tu inventario al mismo tiempo."
   },
   "peaceful_mode": {
-    "name": "Peaceful mode",
-    "description": "Win a game without anyone on your team hitting anyone"
+    "name": "Modo pacífico",
+    "description": "Gana una partida sin que nadie de tu equipo ataque a otro jugador."
   },
   "voided": {
-    "name": "Voided",
-    "description": "Knock a player into the void with projectiles"
+    "name": "Al vacío",
+    "description": "Lanza a un jugador al vacío usando proyectiles."
   },
   "forgot_my_parachute": {
-    "name": "Forgot my parachute",
-    "description": "Kill a player by hitting them into the void"
+    "name": "Olvidé mi paracaídas",
+    "description": "Elimina a un jugador empujándolo al vacío."
   },
   "micro_battles_random": {
-    "name": "Randomness!",
-    "description": "Win using a random kit"
+    "name": "¡Aleatorio!",
+    "description": "Gana usando un kit aleatorio."
   },
   "micro_battles_experimentalist": {
-    "name": "Experimentalist",
-    "description": "Win using every kit"
+    "name": "Experimentalista",
+    "description": "Gana usando todos los kits disponibles."
   },
   "no_block_left_behind": {
-    "name": "No block left behind",
-    "description": "Collect 64 of the same block in your inventory in one game."
+    "name": "Ni un bloque atrás",
+    "description": "Reúne 64 bloques iguales en tu inventario en una sola partida."
   },
   "that_was_quick": {
-    "name": "That was quick",
-    "description": "Get a kill within the first 5 seconds of the walls dropping"
+    "name": "Eso fue rápido",
+    "description": "Consigue una eliminación en los primeros 5 segundos tras caer las paredes."
   },
   "no_blocks_no_problem": {
-    "name": "No blocks, no problem",
-    "description": "Win a game without breaking or placing blocks"
+    "name": "Sin bloques, sin problema",
+    "description": "Gana una partida sin colocar ni romper bloques."
   },
   "skywars_chest_looter": {
-    "name": "Chest looter",
-    "description": "Loot chests in Skywars"
+    "name": "Saqueador de cofres",
+    "description": "Abre cofres en Skywars."
   },
   "professional_boxer": {
-    "name": "Professional boxer",
-    "description": "Kill a player with only your fist"
+    "name": "Boxeador profesional",
+    "description": "Elimina a un jugador usando solo tus puños."
   },
   "unbiased_killer": {
-    "name": "Unbiased killer",
-    "description": "Kill at least one player from every team in a game"
+    "name": "Asesino imparcial",
+    "description": "Elimina al menos a un jugador de cada equipo en una misma partida."
   },
   "hot_bath": {
-    "name": "Hot bath",
-    "description": "Kill a player while swimming in lava"
+    "name": "Baño caliente",
+    "description": "Elimina a un jugador mientras nadas en lava."
   },
   "dead_eye": {
-    "name": "Dead eye",
-    "description": "Get 4 kills with a bow in one game"
+    "name": "Ojo de águila",
+    "description": "Consigue 4 eliminaciones con arco en una sola partida."
   },
   "what_map": {
-    "name": "What map?",
-    "description": "Win a game after the entire map has been corrupted"
+    "name": "¿Qué mapa?",
+    "description": "Gana una partida después de que todo el mapa haya sido destruido."
   },
   "micro_battles_clutch": {
     "name": "Clutch",
-    "description": "Win a game while being the last member of your team standing."
+    "description": "Gana una partida siendo el último miembro vivo de tu equipo."
   },
   "micro_battles_explorer": {
-    "name": "Explorer",
-    "description": "Play on every Micro Battles map in a given rotation"
+    "name": "Explorador",
+    "description": "Juega en todos los mapas de Micro Battles de una rotación."
   },
   "skywars_wins": {
-    "name": "Skywars winner",
-    "description": "Win games of Skywars."
+    "name": "Ganador de Skywars",
+    "description": "Gana partidas de Skywars."
   },
   "skywars_kills": {
-    "name": "Skywars murderer",
-    "description": "Kill players in Skywars"
+    "name": "Asesino de Skywars",
+    "description": "Elimina jugadores en Skywars."
   },
   "speed_builders_wins": {
-    "name": "Speed Builders winner",
-    "description": "Win games of Speed Builders."
+    "name": "Ganador de Speed Builders",
+    "description": "Gana partidas de Speed Builders."
   },
   "perfect_builds": {
-    "name": "Perfect builder",
-    "description": "Get perfect builds (non-unique)"
+    "name": "Constructor perfecto",
+    "description": "Consigue construcciones perfectas (no únicas)."
   },
   "rising_the_ranks": {
-    "name": "Rising the Ranks",
-    "description": "Reach round 15"
+    "name": "Subiendo de rango",
+    "description": "Llega a la ronda 15."
   },
   "i_am_speed": {
-    "name": "I am Speed",
-    "description": "Complete a build within 5 seconds"
+    "name": "Soy la velocidad",
+    "description": "Completa una construcción en menos de 5 segundos."
   },
   "ascended": {
-    "name": "Ascended",
-    "description": "Reach round 30"
+    "name": "Ascendido",
+    "description": "Llega a la ronda 30."
   },
   "speed_builders_explorer": {
-    "name": "Explorer",
-    "description": "Play on every Speed Builders map in a given rotation"
+    "name": "Explorador",
+    "description": "Juega en todos los mapas de Speed Builders de una rotación."
   },
   "speed_builders_challenger": {
-    "name": "Challenger",
-    "description": "Reach Round 5"
+    "name": "Retador",
+    "description": "Llega a la ronda 5."
   },
   "unique_demon_builds": {
-    "name": "Demonic builder",
-    "description": "Complete unique demon builds"
+    "name": "Constructor demoníaco",
+    "description": "Completa construcciones demoníacas únicas."
   },
   "unique_medium_builds": {
-    "name": "Mediocre builder",
-    "description": "Complete unique medium difficulty builds"
+    "name": "Constructor medio",
+    "description": "Completa construcciones únicas de dificultad media."
   },
   "unique_hard_builds": {
-    "name": "Hard worker",
-    "description": "Complete unique hard difficulty builds"
+    "name": "Trabajador duro",
+    "description": "Completa construcciones únicas de dificultad alta."
   },
   "unique_easy_builds": {
-    "name": "Bob the builder",
-    "description": "Complete unique easy difficulty builds"
+    "name": "Bob el constructor",
+    "description": "Completa construcciones únicas de dificultad fácil."
   }
 }
-

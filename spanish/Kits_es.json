@@ -1,45 +1,45 @@
 {
-  "choose-bedrock-kit-title": "Select a %%game%% kit!",
-  "choose-bedrock-kit-desc": "Click on a kit to choose!",
-  "rotating": "Rotating",
-  "rotating-away-in": "Rotating in %%time%%",
-  "rotating-away-soon": "Rotating away soon!",
-  "experience": "Experience",
-  "you-have-selected": "§7You have selected §f%%kit%%§7!",
-  "a-random": "a random kit",
-  "swapped-with": "§7You were swapped with §f%%player%%§7 using the Swapper kit! You will teleport back in §e5 seconds§7!",
-  "select-your-kit": "§dSelect your kit!",
-  "random-kit-description": "§7A randomly selected kit",
-  "random-kit": "Random",
+  "choose-bedrock-kit-title": "¡Selecciona un kit de %%game%%!",
+  "choose-bedrock-kit-desc": "¡Haz clic en un kit para elegirlo!",
+  "rotating": "Rotando",
+  "rotating-away-in": "Cambia en %%time%%",
+  "rotating-away-soon": "¡Cambiará pronto!",
+  "experience": "Experiencia",
+  "you-have-selected": "§7Has seleccionado §f%%kit%%§7!",
+  "a-random": "un kit aleatorio",
+  "swapped-with": "§7¡Has sido intercambiado con §f%%player%%§7 usando el kit Intercambiador! Serás teletransportado de vuelta en §e5 segundos§7!",
+  "select-your-kit": "§d¡Selecciona tu kit!",
+  "random-kit-description": "§7Un kit seleccionado aleatoriamente",
+  "random-kit": "Aleatorio",
   "kits": "Kits",
-  "currently-chosen-kit": "§7You have §f%%current%% §7kit currently chosen!",
-  "lifesteal-ability-activated": "§7You were healed §c2❤§7 due to your lifesteal ability!",
-  "kit-level-increase": "§7\n§e⬆ §f%%kit%% §dkit has leveled up! §5[%%previous%% §e➜ §d%%new%%]\n§7§oHover to view progress towards the next level.\n§7",
+  "currently-chosen-kit": "§7Actualmente tienes seleccionado el kit §f%%current%%§7!",
+  "lifesteal-ability-activated": "§7¡Has sido curado §c2❤§7 gracias a tu habilidad de robo de vida!",
+  "kit-level-increase": "§7\n§e⬆ §f¡El kit §d%%kit%% §fha subido de nivel! §5[%%previous%% §e➜ §d%%new%%]\n§7§oPasa el cursor para ver el progreso hacia el siguiente nivel.\n§7",
   "MICRO_BATTLES": {
     "fighter": {
-      "name": "Fighter",
-      "description": "Lifesteal: Killing a player heals 2 hp. <newline> •_Wooden_Sword (Sharpness 1)"
+      "name": "Luchador",
+      "description": "Robo de vida: al matar a un jugador, te curas 2 corazones. <newline> •_Wooden_Sword (Filo I)"
     },
     "archer": {
-      "name": "Archer",
-      "description": "Robin Hood: Receives 1x arrow every 10 seconds. Your quiver can hold a maximum of 3 arrows. <newline> <newline> •_Wooden_Sword <newline> •_Bow"
+      "name": "Arquero",
+      "description": "Robin Hood: ganas una flecha cada 10 segundos. Puedes guardar hasta 3 flechas en tu carcaj. <newline> <newline> •_Wooden_Sword <newline> •_Bow"
     },
     "builder-mb": {
-      "name": "Builder",
-      "description": "Excavator Overdrive: Receive haste for 7 seconds upon breaking a block. Cooldown of 25 seconds between uses. <newline> <newline> •_Wooden_Sword <newline> •_Stone_Pickaxe <newline> •_Stone_Shovel <newline> •_Stone_Axe"
+      "name": "Constructor",
+      "description": "Excavador al límite: obtienes prisa durante 7 segundos al romper un bloque. Tiempo de recarga de 25 segundos entre usos. <newline> <newline> •_Wooden_Sword <newline> •_Stone_Pickaxe <newline> •_Stone_Shovel <newline> •_Stone_Axe"
     },
     "no_kit_micro_battles": {
-      "name": "No Kit",
-      "description": "No items, just pure skill."
+      "name": "Sin Kit",
+      "description": "Sin ítems, solo habilidad."
     }
   },
   "SKYWARS": {
     "fighter": {
-      "name": "Fighter",
+      "name": "Luchador",
       "description": "•_Iron_Chestplate <newline> •_Chain_Boots <newline> •_Stone_Sword <newline> •_10_Steak"
     },
     "tools": {
-      "name": "Tools",
+      "name": "Herramientas",
       "description": "•_Leather_Helmet <newline> •_Leather_Chestplate <newline> •_Lether_Leggings <newline> •_Leather_Boots <newline> •_Iron_Pickaxe <newline> •_Iron_Axe <newline> •_Iron_Shovel"
     },
     "flash": {
@@ -47,88 +47,88 @@
       "description": "•_Leather_Chestplate <newline> •_Lether_Leggings <newline> •_Chain_Boots <newline> •_Diamond_Axe <newline> •_Speed_II_Potion_(2x)"
     },
     "builder": {
-      "name": "Builder",
+      "name": "Constructor",
       "description": "•_Iron_Leggings <newline> •_Scaffolding_(16x)_<newline> •_Logs_(16x) <newline> •_Cobble_(32x) <newline> •_Wool_(16x)"
     },
     "strongman": {
-      "name": "Strongman",
+      "name": "Forzudo",
       "description": "•_Iron_Helmet <newline> •_Leather_Chestplate <newline> •_Leather_Leggings <newline> •_Leather_Boots <newline> •_Strength_II_Potion_(2x)"
     },
     "engineer": {
-      "name": "Engineer",
+      "name": "Ingeniero",
       "description": "•_Leather_Chestplate <newline> •_Lether_Leggings <newline> •_Pistons_(6x) <newline> •_Redstone (16x) <newline> •_Cobblestone_(20x) <newline> •_Repeater_(3x)"
     },
     "sniper": {
-      "name": "Sniper",
+      "name": "Francotirador",
       "description": "•_Bow <newline> •_Arrows_(20x)"
     },
     "assassin": {
-      "name": "Assassin",
+      "name": "Asesino",
       "description": "•_Leather_Chestplate <newline> •_Leather_Boots <newline> •_Invisibility_Potion_(2x)"
     },
     "enchanter": {
-      "name": "Enchanter",
+      "name": "Encantador",
       "description": "•_Leather_Helmet <newline> •_Enchantment_Table <newline> •_Anvil <newline> •_Bottle_o'_Enchanting (32x)"
     },
     "mage": {
-      "name": "Mage",
+      "name": "Mago",
       "description": "•_Gold_Helmet <newline> •_Gold_Chestplate <newline> •_Slowness_II_Potion_(2x) <newline> •_Healing_II_Potion_(2x) <newline> •_Milk_Bucket"
     },
     "sharpshooter": {
-      "name": "Sharpshooter",
+      "name": "Tirador Experto",
       "description": "•_Leather_Chestplate <newline> •_Crossbows_(2x) <newline> •_Arrow_(10x)"
     },
     "bomber": {
-      "name": "Bomber",
+      "name": "Bombardero",
       "description": "•_Diamond_Helmet <newline> •_TNT_(10x) <newline> •_Flint_and_Steel <newline> •_Pressure_Plates_(5x) <newline> •_Water_Bucket"
     },
     "spider": {
-      "name": "Spider",
+      "name": "Araña",
       "description": "•_Leather_Helmet <newline> •_Leather_Chestplate <newline> •_Golden_Boots <newline> •_Jump_Boost_III_Potion <newline> •_Cobwebs_(6x)"
     },
     "gappler": {
-      "name": "Gappler",
+      "name": "Manzanero",
       "description": "•_Iron_Chestplate <newline> •_Golden_Apple_(3x)"
     },
     "water": {
-      "name": "Water",
-      "description": "I'm a fish! (placeholder text)"
+      "name": "Agua",
+      "description": "¡Soy un pez! (texto provisional)"
     },
     "necrotic": {
-      "name": "Necrotic",
-      "description": "Tap into the dark arts and unleash your inner power. With each strike, a sword from within unleashes additional damage."
+      "name": "Necrótico",
+      "description": "Canaliza las artes oscuras y libera tu poder interior. Con cada golpe, una espada interior desata daño adicional."
     },
     "amnesia": {
       "name": "Amnesia",
-      "description": "I forgot to describe this kit, oops! (placeholder text)"
+      "description": "Olvidé describir este kit, ¡ups! (texto provisional)"
     },
     "pearler": {
-      "name": "Pearler",
-      "description": "Throw a pearl! (placeholder text)"
+      "name": "Lanzaperlas",
+      "description": "¡Lanza una perla! (texto provisional)"
     },
     "air": {
-      "name": "Air",
-      "description": "Take to the skies, equipped with a special leaping ability, you can save yourself from falling into the abyss."
+      "name": "Aire",
+      "description": "Surca los cielos con una habilidad especial de salto que te permite salvarte de caer al vacío."
     },
     "earth": {
-      "name": "Earth",
-      "description": "Throw dirt blocks at people lol"
+      "name": "Tierra",
+      "description": "¡Lanza bloques de tierra a los demás!"
     },
     "fire": {
-      "name": "Fire",
-      "description": "Gives a fire staff"
+      "name": "Fuego",
+      "description": "Te otorga un bastón de fuego."
     },
     "swapper": {
-      "name": "Swapper",
-      "description": "Swap location with a random player for 10 seconds!"
+      "name": "Intercambiador",
+      "description": "¡Intercambia tu posición con un jugador aleatorio por 10 segundos!"
     },
     "disrupter": {
-      "name": "Disrupter",
-      "description": "Harness the power of corruption to unleash chaos using your expert marksmanship to drill holes deep into the heart of the abyss."
+      "name": "Destructor",
+      "description": "Canaliza el poder de la corrupción para desatar el caos usando tu puntería experta para abrir agujeros en el corazón del abismo."
     },
     "no_kit_skywars": {
-      "name": "No kit",
-      "description": "No kit in sight!"
+      "name": "Sin Kit",
+      "description": "¡Sin kit a la vista!"
     }
   }
 }

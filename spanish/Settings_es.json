@@ -1,35 +1,35 @@
 {
-  "settings": "Settings",
-  "disable-using-settings": "§7You can disable this using /settings!",
-  "setmap-to": "§7The next map has been set to §f%%map%%",
-  "set-debug-to": "§7You have set your QA debug state to §f%%state%%",
-  "set-fly-to": "§7You have set your lobby flight to §f%%state%%",
-  "setmap-choose-one-of": "§cInvalid map name! §7Options are: §f%%names%%",
-  "no-permission": "§7\n§c⚠ §cYou do not have permission to do this. §7§oIf this is a mistake, please contact an administrator.\n§7",
+  "settings": "Configuraciones",
+  "disable-using-settings": "§7¡Puedes desactivar esto usando /settings!",
+  "setmap-to": "§7El próximo mapa ha sido establecido en §f%%map%%",
+  "set-debug-to": "§7Has cambiado tu estado de depuración QA a §f%%state%%",
+  "set-fly-to": "§7Has cambiado tu modo de vuelo en el lobby a §f%%state%%",
+  "setmap-choose-one-of": "§c¡Nombre de mapa inválido! §7Opciones disponibles: §f%%names%%",
+  "no-permission": "§7\n§c⚠ §cNo tienes permiso para hacer esto. §7§oSi crees que es un error, contacta a un administrador.\n§7",
   "scoreboard_show_kit_maps": {
-    "name": "Show kit & map on scoreboard",
-    "description": "Select if you'd like to show or hide the map and kit on the scoreboard"
+    "name": "Mostrar kit y mapa en el marcador",
+    "description": "Selecciona si deseas mostrar u ocultar el mapa y el kit en el marcador"
   },
   "premium": {
-    "description": "§7Premium is a one-time purchased rank that enhances users' experiences and gives them exclusive features and benefits on Plexverse. It can be purchased from our Lobby."
+    "description": "§7Premium es un rango de compra única que mejora la experiencia del usuario y ofrece funciones y beneficios exclusivos en Plexverse. Puede adquirirse en nuestro Lobby."
   },
   "premium_plus": {
-    "description": "§7Premium+ is an enhanced membership tier that offers additional benefits for Premium users. It can be purchased from our Lobby."
+    "description": "§7Premium+ es un nivel de membresía mejorado que ofrece beneficios adicionales para los usuarios Premium. Puede adquirirse en nuestro Lobby."
   },
   "creator": {
-    "description": "§7Creator is a rank designated for community members who actively contribute content to our platform. To apply, visit our website."
+    "description": "§7Creador es un rango designado para miembros de la comunidad que contribuyen activamente con contenido en nuestra plataforma. Para aplicar, visita nuestro sitio web."
   },
   "builder": {
-    "description": "§7Builders are responsible for designing maps for Plexverse. They possess expertise in level design, architecture, and excel in creativity. To apply, visit our forums."
+    "description": "§7Los Constructores son responsables de diseñar mapas para Plexverse. Poseen experiencia en diseño de niveles, arquitectura y destacan por su creatividad. Para aplicar, visita nuestros foros."
   },
   "trial_moderator": {
-    "description": "§7Trial Moderators assist the community while learning the ropes and duties of a Moderator. Use §e/msg§7 to ask them a question."
+    "description": "§7Los Moderadores en Prueba ayudan a la comunidad mientras aprenden las funciones y responsabilidades de un Moderador. Usa §e/msg§7 para hacerles una pregunta."
   },
   "moderator": {
-    "description": "§7Moderators serve as a bridge between the community and the server's administration while ensuring a smooth and safe operation for all."
+    "description": "§7Los Moderadores sirven como enlace entre la comunidad y la administración del servidor, asegurando una operación fluida y segura para todos."
   },
   "admin": {
-    "description": "§7Admins oversee Plexverse's technical aspects and manage teams to ensure proper server operation."
+    "description": "§7Los Administradores supervisan los aspectos técnicos de Plexverse y gestionan los equipos para garantizar el correcto funcionamiento del servidor."
   }
 }
 
