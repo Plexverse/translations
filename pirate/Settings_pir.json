@@ -6,6 +6,8 @@
   "set-fly-to": "§7Ye have set yer lobby flight to §f%%state%%",
   "setmap-choose-one-of": "§cInvalid map name, arr! §7Options be: §f%%names%%",
   "no-permission": "§7\n§c⚠ §cYe don't have permission to do this, matey! §7§oIf this be a mistake, please contact an administrator.\n§7",
+  "language-set-success": "§7Your language has been set to §f%%language%%",
+  "language-invalid": "§cInvalid language! §7Available languages: §f%%available%%",
   "scoreboard_show_kit_maps": {
     "name": "Show kit & map on scoreboard",
     "description": "Select if ye'd like to show or hide the map and kit on the scoreboard"
