@@ -141,6 +141,9 @@
   "mineplex-build-team": "Mineplex Build Team",
   "ending-in": "§bEnding in %%time%%",
   "dark-matter": "Dark Matter",
-  "kit-experience": "Kit Experience"
+  "kit-experience": "Kit Experience",
+  "play-again": "§dPlay Again!",
+  "play-arcade-again": "§dPlay Arcade Again!",
+  "spectator-compass": "§dSpectator Compass"
 }
 
