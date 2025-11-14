@@ -1,5 +1,12 @@
 {
   "death": "Смерть",
-  "first-blood": "%%player%% §7пролил первую кровь!"
+  "first-blood": "%%player%% §7пролил первую кровь!",
+  "fist": "Fist",
+  "assists": "Assists:",
+  "kill-messages": {
+    "default": "%%victim%% was killed by %%attacker%%%%assists%% using %%item%%."
+  },
+  "assists-count": "(+%%count%%)",
+  "did-not-survive": "%%victim%% did not survive."
 }
 
