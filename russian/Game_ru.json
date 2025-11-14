@@ -146,6 +146,12 @@
   "play-arcade-again": "§dСыграть снова в Аркаду!",
   "spectator-compass": "§dКомпас наблюдения",
   "tab-header": "§d\n§d§lPLEXVERSE §8- §f§l%%game%%\n§8%%server%% - %%date%%\n§d",
-  "tab-footer": "§d                                                  §d\n§7Сообщайте об ошибках в канале §f#beta-feedback\n§7Присоеденяйтесь к Discord серверу Mineplex: §b§ndiscord.gg/mineplex\n§d"
+  "tab-footer": "§d                                                  §d\n§7Сообщайте об ошибках в канале §f#beta-feedback\n§7Присоеденяйтесь к Discord серверу Mineplex: §b§ndiscord.gg/mineplex\n§d",
+  "statistics-not-affected": "Statistics will not be affected for this game",
+  "development-mode-notice": "This is because this game is in development mode.",
+  "voted-increase-timer": "You voted to increase the timer!",
+  "timer-increased-seconds": "Increased timer by %%seconds%% seconds",
+  "player-voted-increase-timer": "%%player%% has voted to increase the start timer!",
+  "game-ending-seconds": "The game will end in %%seconds%% seconds!"
 }
 

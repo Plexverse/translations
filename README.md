@@ -30,6 +30,7 @@ The repository is organized by language, with each language having its own direc
 ```
 translations/
 ├── english/          # Base English translations (source of truth)
+│   ├── Admin_en.json
 │   ├── Badges_en.json
 │   ├── Death_en.json
 │   ├── Game_en.json
@@ -159,6 +160,7 @@ Translation files follow this naming pattern:
 
 ## Translation Categories
 
+- **Admin**: Admin-related messages and error notifications
 - **Badges**: Badge names and descriptions
 - **Death**: Death-related messages
 - **Game**: In-game messages and UI text

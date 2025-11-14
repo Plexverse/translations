@@ -16,6 +16,9 @@
   "currently-chosen-kit": "§7You have §f%%current%% §7kit currently chosen!",
   "lifesteal-ability-activated": "§7You were healed §c2❤§7 due to your lifesteal ability!",
   "kit-level-increase": "§7\n§e⬆ §f%%kit%% §dkit has leveled up! §5[%%previous%% §e➜ §d%%new%%]\n§7§oHover to view progress towards the next level.\n§7",
+  "usage": "Usage:",
+  "never": "Never",
+  "not-loaded": "Not loaded...",
   "MICRO_BATTLES": {
     "fighter": {
       "name": "Fighter",
