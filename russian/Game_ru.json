@@ -20,7 +20,7 @@
   "given-map-feedback": "§7Вы оценили карту §f%%map%%§7 на оценку %%score%%§7!",
   "already-given-feedback": "§cВы уже оценивали эту карту!",
   "feedback-between": "§cВы должны указать число между 1 и 5 (включительно)",
-  "map-feedback-command": " §7Нажмите для оценки этой карты",
+  "map-feedback-command": " §7Нажмите для оценки этой карты\n ",
   "click-to-teleport": "§dНажмите для телепортации",
   "players-completed": "Построили идеально",
   "only-your-build-area": "§7Вы можете строить только в зоне, предназначенной для строительства!",
