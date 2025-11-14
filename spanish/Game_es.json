@@ -144,6 +144,8 @@
   "kit-experience": "Kit Experience",
   "play-again": "§dPlay Again!",
   "play-arcade-again": "§dPlay Arcade Again!",
-  "spectator-compass": "§dSpectator Compass"
+  "spectator-compass": "§dSpectator Compass",
+  "tab-header": "§d\n§d§lPLEXVERSE §8- §f§l%%game%%\n§8%%server%% - %%date%%\n§d",
+  "tab-footer": "§d                                                  §d\n§7Report bugs in §f#beta-feedback\n§7Join Mineplex Discord: §b§ndiscord.gg/mineplex\n§d"
 }
 
