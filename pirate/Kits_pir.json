@@ -12,6 +12,7 @@
   "random-kit-description": "§7A randomly selected kit",
   "random-kit": "Random",
   "kits": "Kits",
+  "only-select-pregame": "§cYou can choose a Kit before the game starts, or after dying!",
   "currently-chosen-kit": "§7You have §f%%current%% §7kit currently chosen!",
   "lifesteal-ability-activated": "§7You were healed §c2❤§7 due to your lifesteal ability!",
   "kit-level-increase": "§7\n§e⬆ §f%%kit%% §dkit has leveled up! §5[%%previous%% §e➜ §d%%new%%]\n§7§oHover to view progress towards the next level.\n§7",
