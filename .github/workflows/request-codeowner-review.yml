@@ -1,4 +1,4 @@
-name: Request Codeowner Review
+name: Translations 🌍 Request Codeowner Review
 
 on:
   pull_request:

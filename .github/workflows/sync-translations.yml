@@ -1,0 +1,140 @@
+name: Translations 🌍 Sync Translations
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  sync-translations:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      # Note: This workflow uses a PAT_TOKEN secret that must have:
+      # - repo (to trigger repository_dispatch events in other repositories)
+      # - read:org (to list organization repositories)
+      # Create a Personal Access Token and add it as a repository secret named 'PAT_TOKEN'
+    steps:
+      - name: Sync translations to Plexverse/common
+        env:
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: |
+          gh api repos/Plexverse/common/dispatches \
+            -X POST \
+            -f event_type='sync-translations'
+      
+      - name: Get all gamemode repositories
+        env:
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+        uses: actions/github-script@v7
+        id: get-repos
+        with:
+          github-token: ${{ env.PAT_TOKEN }}
+          script: |
+            const org = 'Plexverse';
+            const topic = 'gamemode';
+            const repos = [];
+            
+            try {
+              // Get all repositories in the organization
+              let page = 1;
+              let hasMore = true;
+              
+              while (hasMore) {
+                const { data: pageRepos } = await github.rest.repos.listForOrg({
+                  org: org,
+                  type: 'all',
+                  per_page: 100,
+                  page: page,
+                });
+                
+                if (pageRepos.length === 0) {
+                  hasMore = false;
+                } else {
+                  // Filter repositories by topic
+                  for (const repo of pageRepos) {
+                    // Get repository topics
+                    try {
+                      const { data: topics } = await github.rest.repos.getAllTopics({
+                        owner: org,
+                        repo: repo.name,
+                      });
+                      
+                      // Check if repository has the 'gamemode' topic
+                      if (topics.names && topics.names.includes(topic)) {
+                        repos.push(repo.name);
+                        console.log(`Found gamemode repository: ${repo.name}`);
+                      }
+                    } catch (error) {
+                      console.warn(`Error getting topics for ${repo.name}:`, error.message);
+                      // Continue with other repos even if one fails
+                    }
+                  }
+                  
+                  // Check if there are more pages
+                  if (pageRepos.length < 100) {
+                    hasMore = false;
+                  } else {
+                    page++;
+                  }
+                }
+              }
+              
+              console.log(`Found ${repos.length} repositories with 'gamemode' topic`);
+              
+              // Output as JSON array for next step
+              core.setOutput('repos', JSON.stringify(repos));
+              return repos;
+            } catch (error) {
+              console.error('Error listing repositories:', error.message);
+              throw error;
+            }
+      
+      - name: Sync translations to gamemode repositories
+        env:
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: |
+          reposJson='${{ steps.get-repos.outputs.repos }}'
+          if [ -z "$reposJson" ] || [ "$reposJson" = "[]" ]; then
+            echo "No gamemode repositories found"
+            exit 0
+          fi
+          
+          # Parse JSON array and send dispatch events
+          success=()
+          failed=()
+          
+          while IFS= read -r repo; do
+            if gh api repos/Plexverse/$repo/dispatches \
+              -X POST \
+              -f event_type='sync-translations' 2>&1; then
+              echo "✓ Successfully sent sync-translations event to Plexverse/$repo"
+              success+=("$repo")
+            else
+              echo "✗ Error sending dispatch event to Plexverse/$repo"
+              failed+=("$repo")
+            fi
+          done < <(echo "$reposJson" | jq -r '.[]')
+          
+          echo ""
+          echo "=== Summary ==="
+          echo "Successfully synced: ${#success[@]} repositories"
+          echo "Failed: ${#failed[@]} repositories"
+          
+          if [ ${#success[@]} -gt 0 ]; then
+            echo ""
+            echo "Successful repositories:"
+            for repo in "${success[@]}"; do
+              echo "  - $repo"
+            done
+          fi
+          
+          if [ ${#failed[@]} -gt 0 ]; then
+            echo ""
+            echo "Failed repositories:"
+            for repo in "${failed[@]}"; do
+              echo "  - $repo"
+            done
+          fi
+

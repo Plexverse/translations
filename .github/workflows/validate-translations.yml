@@ -1,4 +1,4 @@
-name: Validate Translations
+name: Translations 🌍 Validate Translations
 
 on:
   pull_request:
