@@ -8,7 +8,7 @@
   "server-full": "§7Севрер полный, начало через 10 секунд!",
   "starting-in-title": "§aНачало через %%time%%",
   "game-ended-kick": "§7Возвращение в лобби Plexverse!",
-  "waiting-for-players-title": "§aОжидание еще %%amount%% игрока(-ов)",
+  "waiting-for-players-title": "§aОжидание еще §a%%amount%%§a игрока(-ов)",
   "invalid-game-type": "§cУказан неизвестный тип игры?",
   "lobby-return": "§dВернуться в лобби!",
   "queue": "Очередь",

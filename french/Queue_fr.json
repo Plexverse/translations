@@ -8,7 +8,7 @@
   "server-full": "§7The server is full, starting in 10 seconds!",
   "starting-in-title": "§aStarting in %%time%%",
   "game-ended-kick": "§7Returning you to the Plexverse lobby!",
-  "waiting-for-players-title": "§aWaiting for %%amount%% more player(s)",
+  "waiting-for-players-title": "§aWaiting for §a%%amount%%§a more player(s)",
   "invalid-game-type": "§cInvalid game type provided?",
   "lobby-return": "§dReturn to the Lobby!",
   "queue": "Queue",
