@@ -1,5 +1,4 @@
 {
-  "player-not-found": "That player cannot be found",
-  "permission-group-not-found": "That permission group cannot be found"
+  "player-not-found": "Этот игрок не найден",
+  "permission-group-not-found": "Эта группа разрешений не найдена"
 }
-

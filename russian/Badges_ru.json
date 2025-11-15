@@ -37,7 +37,7 @@
   },
   "sneaky": {
     "name": "Sneaky",
-    "description": "Получите убийство когда крадетесь"
+    "description": "Получите убийство, когда крадетесь"
   },
   "pick_it_to_win_it": {
     "name": "Ударь для победы",
@@ -49,7 +49,7 @@
   },
   "micro_battles_win": {
     "name": "Победитель в Micro Battles",
-    "description": "Выигрывайте игры Micro Battles"
+    "description": "Выигрывайте игры в Micro Battles"
   },
   "gotta_go_fast": {
     "name": "Надо идти быстро",
@@ -61,7 +61,7 @@
   },
   "spooky_ghost": {
     "name": "Жуткий призрак",
-    "description": "Убейте игрков с невидимостью"
+    "description": "Убейте игроков с невидимостью"
   },
   "well_this_is_new": {
     "name": "Ну, это новое",
@@ -73,7 +73,7 @@
   },
   "aim_is_the_game": {
     "name": "Цель – это игра",
-    "description": "С помощю эндер-жемчуга спаситесь от падаения в пустоту"
+    "description": "С помощью эндер-жемчуга спаситесь от падения в пустоту"
   },
   "practice_makes_perfect": {
     "name": "Практика совершенствует",
@@ -81,131 +81,131 @@
   },
   "skywars_explorer": {
     "name": "Исследователь",
-    "description": "Сыиграйте на всех картах Skywars из текущей ротации"
+    "description": "Сыграйте на всех картах Skywars из текущей ротации"
   },
   "which_do_i_choose": {
     "name": "Какой же мне выбрать?",
-    "description": "Выиграте игры в Skywars, используя 10 уникальных наборовs"
+    "description": "Выиграйте игры в Skywars, используя 10 уникальных наборов"
   },
   "going_to_the_end": {
-    "name": "Going to the End",
-    "description": "Hold 16 ender pearls at once"
+    "name": "Отправляюсь в Край",
+    "description": "Удерживайте одновременно 16 жемчужин Края."
   },
   "peaceful_mode": {
-    "name": "Peaceful mode",
-    "description": "Win a game without anyone on your team hitting anyone"
+    "name": "Мирный режим",
+    "description": "Выиграйте, когда никто из вашей команды никого не бил"
   },
   "voided": {
-    "name": "Voided",
-    "description": "Knock a player into the void with projectiles"
+    "name": "Аннулирован",
+    "description": "Столкните игрока в пустоту при помощи снаряда"
   },
   "forgot_my_parachute": {
-    "name": "Forgot my parachute",
-    "description": "Kill a player by hitting them into the void"
+    "name": "Забыл свой парашют",
+    "description": "Убейте игрока, столкнув в пустоту"
   },
   "micro_battles_random": {
-    "name": "Randomness!",
-    "description": "Win using a random kit"
+    "name": "Случайность!",
+    "description": "Выиграйте, используя случайный набор"
   },
   "micro_battles_experimentalist": {
-    "name": "Experimentalist",
-    "description": "Win using every kit"
+    "name": "Экспериментатор",
+    "description": "Выиграйте, используя каждый набор"
   },
   "no_block_left_behind": {
-    "name": "No block left behind",
-    "description": "Collect 64 of the same block in your inventory in one game."
+    "name": "Ни одного блока не осталось позади",
+    "description": "Соберите 64 блока одного типа в своем инвентаре за одну игру."
   },
   "that_was_quick": {
-    "name": "That was quick",
-    "description": "Get a kill within the first 5 seconds of the walls dropping"
+    "name": "Это было быстро",
+    "description": "Получите убийство за первый 5 секунд после падания стен"
   },
   "no_blocks_no_problem": {
     "name": "No blocks, no problem",
-    "description": "Win a game without breaking or placing blocks"
+    "description": "Выиграйте игру не ломая и не устанавливая блоки"
   },
   "skywars_chest_looter": {
-    "name": "Chest looter",
-    "description": "Loot chests in Skywars"
+    "name": "Исследователь сундуков",
+    "description": "Исследуйте в Skywars"
   },
   "professional_boxer": {
-    "name": "Professional boxer",
-    "description": "Kill a player with only your fist"
+    "name": "Профессиональный боксер",
+    "description": "Убейте игрока кулаками"
   },
   "unbiased_killer": {
-    "name": "Unbiased killer",
-    "description": "Kill at least one player from every team in a game"
+    "name": "Беспристрастный убийца",
+    "description": "Убейте как минимум одного игрока из каждой команды в игре"
   },
   "hot_bath": {
-    "name": "Hot bath",
-    "description": "Kill a player while swimming in lava"
+    "name": "Горячая ванна",
+    "description": "Убейте игрока, находясь при этом в лаве"
   },
   "dead_eye": {
-    "name": "Dead eye",
-    "description": "Get 4 kills with a bow in one game"
+    "name": "Мертвый глаз",
+    "description": "Получите 4 убийства с помощью лука за одну игру"
   },
   "what_map": {
-    "name": "What map?",
-    "description": "Win a game after the entire map has been corrupted"
+    "name": "Какая карта?",
+    "description": "Выиграйте игру поле заражения всей карты"
   },
   "micro_battles_clutch": {
-    "name": "Clutch",
-    "description": "Win a game while being the last member of your team standing."
+    "name": "Решающий момент",
+    "description": "Выиграйте игру, оставшись последним участником своей команды."
   },
   "micro_battles_explorer": {
-    "name": "Explorer",
-    "description": "Play on every Micro Battles map in a given rotation"
+    "name": "Исследователь",
+    "description": "Сыграйте на всех картах Micro Battles из текущей ротации"
   },
   "skywars_wins": {
     "name": "Skywars winner",
-    "description": "Win games of Skywars."
+    "description": "Выигрывайте игры в Skywars."
   },
   "skywars_kills": {
-    "name": "Skywars murderer",
-    "description": "Kill players in Skywars"
+    "name": "Убийца в Skywars",
+    "description": "Убивайте игроков в Skywars"
   },
   "speed_builders_wins": {
-    "name": "Speed Builders winner",
-    "description": "Win games of Speed Builders."
+    "name": "Победитель в Speed Builders",
+    "description": "Выигрывайте игры в Speed Builders."
   },
   "perfect_builds": {
-    "name": "Perfect builder",
-    "description": "Get perfect builds (non-unique)"
+    "name": "Идеальный строитель",
+    "description": "Стройте идеальные постройки (неуникальный)"
   },
   "rising_the_ranks": {
-    "name": "Rising the Ranks",
-    "description": "Reach round 15"
+    "name": "Повышая ставки",
+    "description": "Достигните раунда 15"
   },
   "i_am_speed": {
-    "name": "I am Speed",
-    "description": "Complete a build within 5 seconds"
+    "name": "Я - скорость",
+    "description": "Завершите строительство за 5 секунд"
   },
   "ascended": {
-    "name": "Ascended",
-    "description": "Reach round 30"
+    "name": "Вознесенный",
+    "description": "Достигните раунда 30"
   },
   "speed_builders_explorer": {
-    "name": "Explorer",
-    "description": "Play on every Speed Builders map in a given rotation"
+    "name": "Исследователь",
+    "description": "Сыграйте на всех картах Speed Builders из текущей ротации"
   },
   "speed_builders_challenger": {
-    "name": "Challenger",
-    "description": "Reach Round 5"
+    "name": "Претендент",
+    "description": "Достигните раунда 5"
   },
   "unique_demon_builds": {
-    "name": "Demonic builder",
-    "description": "Complete unique demon builds"
+    "name": "Демонический строитель",
+    "description": "Постройте демоническую постойку"
   },
   "unique_medium_builds": {
-    "name": "Mediocre builder",
-    "description": "Complete unique medium difficulty builds"
+    "name": "Посредственный строитель",
+    "description": "Постройте уникальные постройки средней сложности"
   },
   "unique_hard_builds": {
-    "name": "Hard worker",
-    "description": "Complete unique hard difficulty builds"
+    "name": "Трудолюбивый",
+    "description": "Постройте уникальные постройки сложной сложности"
   },
   "unique_easy_builds": {
-    "name": "Bob the builder",
-    "description": "Complete unique easy difficulty builds"
+    "name": "Боб строитель",
+    "description": "Постройте уникальные постройки легкой сложности"
   }
 }
 

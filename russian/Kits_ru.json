@@ -16,9 +16,9 @@
   "currently-chosen-kit": "§7В данный момент у вас выбран набор §f%%current%%§7!",
   "lifesteal-ability-activated": "§7Вы восстановили §c2❤§7 здоровья благодоря вашей способности вампиризм!",
   "kit-level-increase": "§7\n§e⬆ §dУ набора §f%%kit%% §dбыл повышен уровень! §5[%%previous%% §e➜ §d%%new%%]\n§7§oНаведите, чтобы увидеть прогресс до следующего уровня.\n§7",
-  "usage": "Usage:",
-  "never": "Never",
-  "not-loaded": "Not loaded...",
+  "usage": "Использование:",
+  "never": "Никогда",
+  "not-loaded": "Не загружено...",
   "MICRO_BATTLES": {
     "fighter": {
       "name": "Боец",
