@@ -152,6 +152,7 @@
   "voted-increase-timer": "Вы проголосовали за расширение таймера!",
   "timer-increased-seconds": "Таймер был расширен на %%seconds%% секунд",
   "player-voted-increase-timer": "%%player%% проголосовал за расширение таймера начала!",
-  "game-ending-seconds": "Игра закончится через %%seconds%% секунд!"
+  "game-ending-seconds": "Игра закончится через %%seconds%% секунд!",
+  "started-watching-game": "§f%%player%% §7started watching the game!"
 }
 

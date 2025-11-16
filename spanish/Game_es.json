@@ -152,6 +152,7 @@
   "voted-increase-timer": "You voted to increase the timer!",
   "timer-increased-seconds": "Increased timer by %%seconds%% seconds",
   "player-voted-increase-timer": "%%player%% has voted to increase the start timer!",
-  "game-ending-seconds": "The game will end in %%seconds%% seconds!"
+  "game-ending-seconds": "The game will end in %%seconds%% seconds!",
+  "started-watching-game": "§f%%player%% §7started watching the game!"
 }
 
