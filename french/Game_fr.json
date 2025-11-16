@@ -19,6 +19,7 @@
   "team": "Team",
   "given-map-feedback": "§7You've added a %%score%%§7 Rating to the §f%%map%%§7 Map!",
   "already-given-feedback": "§cYou have already given feedback for this map!",
+  "map-feedback-failed": "§cFailed to submit your map rating. Please try again later.",
   "feedback-between": "§cYou must provide a number between 1 and 5 (inclusive)",
   "map-feedback-command": " §7Click to rate this map",
   "click-to-teleport": "§dClick to teleport",
