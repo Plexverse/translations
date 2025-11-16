@@ -1,6 +1,6 @@
 {
   "no-server-found": "§cNo %%game%% server found, please try again soon!",
-  "player-joined": "§7%%player%% has joined! §7[§f%%count%% / %%max%%§7]",
+  "player-joined": "§7%%player%% §7has joined! §7[§f%%count%% / %%max%%§7]",
   "player-left": "§7%%player%% has quit! §7[§f%%count%% / %%max%%§7]",
   "not-enough-players-kick": "§cNot enough players joined, try and requeue!",
   "sending-to-game": "§7Added you to the queue for §f%%game%%§7!",

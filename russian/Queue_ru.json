@@ -1,6 +1,6 @@
 {
   "no-server-found": "§cСерверов для %%game%% не найдено, пожалуйста попробуйте позже!",
-  "player-joined": "§7%%player%% присоединился! §7[§f%%count%% / %%max%%§7]",
+  "player-joined": "§7%%player%% §7присоединился! §7[§f%%count%% / %%max%%§7]",
   "player-left": "§7%%player%% вышел! §7[§f%%count%% / %%max%%§7]",
   "not-enough-players-kick": "§cПрисоединилось недостаточно игроков, попробуйте войти в очередь повторно!",
   "sending-to-game": "§7Вы вошли в очередь для §f%%game%%§7!",
