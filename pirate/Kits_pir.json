@@ -19,6 +19,7 @@
   "usage": "Usage:",
   "never": "Never",
   "not-loaded": "Not loaded...",
+  "default-kit-fallback": "§cYour selected kit failed to load. You have been given the §f%%kit%%§c kit instead.",
   "MICRO_BATTLES": {
     "fighter": {
       "name": "Fighter",
