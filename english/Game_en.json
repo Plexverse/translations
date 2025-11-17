@@ -1,9 +1,9 @@
 {
-  "Judging": "Judging in §f%%time%%",
-  "BuildTime": "Preview end in §f%%time%%",
+  "judging": "Judging in §f%%time%%",
+  "buildtime": "Preview end in §f%%time%%",
   "build-time-begins": "§7The time to build has began! Match the preview shown!",
   "speed-builders-judging": "§eGwen the Guardian §7is judging the builds!",
-  "PreviewBuild": "Next round in %%time%%",
+  "previewbuild": "Next round in %%time%%",
   "difficulty": "Difficulty",
   "perfect-match": "§aPerfect Match!",
   "easy-mode-disabled": "§a§lToo easy? Adding §6§lMedium§a§l, §c§lHard §a§land §5§lDemon §a§lbuilds!",
