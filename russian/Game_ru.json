@@ -35,7 +35,7 @@
   "gwen-judging": "§3Страж Gwen оценивает",
   "your-percentage": "§aВы набрали %%percentage%% процентов!",
   "you-scored-chat": "§7Ваша постройка совпала на §a%%percentage%% процентов§7 относительно показанного ранее!",
-  "speed-builders-preview": "§a§lРаунд #%%round%% - предпросмотр: §f%%build%% §7(%%difficulty%%§7) \n§7%%category%% %%time_msg%%",
+  "speed-builders-preview": "§a§lРаунд #%%round%%§a§l - предпросмотр: §f%%build%% §7(%%difficulty%%§7) \n§7%%category%% %%time_msg%%",
   "speed-builders-preview-time": "§e⚡ §7Ваш лучший результат: §e%%time%%",
   "cross": " ❌ ",
   "emoji-sb-category": "Эмоджи и лица",
